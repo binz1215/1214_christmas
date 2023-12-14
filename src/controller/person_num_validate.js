@@ -5,7 +5,7 @@ import { NUM_ARANGE } from '../constants/contants.js';
 class PersonValide {
   #personNum;
 
-  async validDay() {
+  async validPersonNum() {
     let valid = true;
 
     while (valid) {
