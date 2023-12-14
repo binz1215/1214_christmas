@@ -22,7 +22,13 @@ class Event {
     this.#getSum();
     this.#getDiscount();
 
-    return this.#discount;
+    return {
+      day: this.#day,
+      personNum: this.#personNum,
+      menu: this.#menu,
+      sum: this.#sumOrigin,
+      discount: this.#discount,
+    };
   }
 
   async #getMenu() {
