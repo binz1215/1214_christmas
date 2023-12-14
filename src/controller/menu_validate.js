@@ -29,6 +29,7 @@ class MenuValide {
     return this.#order;
   }
 
+  // eslint-disable-next-line max-lines-per-function
   #menuValidCheck() {
     const menuArray = this.#order.orders.map((item) => item.menu);
     if (this.#isDuplicaton(menuArray)) {
@@ -108,9 +109,9 @@ class MenuValide {
 }
 export default MenuValide;
 
-const play = new MenuValide();
-const menuRaw = '해산물파스타-2,레드와인-1,초코케이크-1';
+// const play = new MenuValide();
+// const menuRaw = '해산물파스타-2,레드와인-1,초코케이크-1';
 
-const x = await play.validMenu();
-//
+// const x = await play.validMenu();
+/// /
 // console.log(x);
