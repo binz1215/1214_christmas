@@ -5,7 +5,7 @@ import { NUM_ARANGE, MENU } from '../constants/contants.js';
 class MenuValide {
   #menuRaw;
 
-  #personNum = 3;
+  #personNum;
 
   #order = {};
 
@@ -20,7 +20,7 @@ class MenuValide {
       try {
         this.#menuRaw = await inputOrder();
         this.#makeObject();
-        console.log(this.#order);
+        // console.log(this.#order);
         this.#menuValidCheck();
         this.#menuCountValidCheck();
         valid = false;
