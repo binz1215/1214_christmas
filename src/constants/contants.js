@@ -2,6 +2,12 @@ export const DAY = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1
 
 export const STAR_DAY = [3, 10, 17, 24, 25, 31];
 
+export const NUM_ARANGE = {
+  1: 1,
+  6: 6,
+  20: 20,
+};
+
 export const MENU = {
   애피타이저: {
     양송이수프: 6000,
