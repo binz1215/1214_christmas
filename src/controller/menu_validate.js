@@ -51,7 +51,7 @@ class MenuValide {
   #menuCountValidCheck() {
     const countArray = this.#order.orders.map((item) => item.count);
     if (this.#isRightNum(countArray)) {
-      Console.print(`[ERROR] 메뉴 개수는 1이상 숫자로 입력해야 합니다.`);
+      Console.print(`[ERROR] 메인메뉴 개수는 1이상 숫자로 입력해야 합니다.`);
       throw new Error(`[ERROR]`);
     }
     if (this.#isUnderMax(countArray)) {

@@ -3,7 +3,7 @@ import { MENU } from '../constants/contants.js';
 class SumOrigin {
   #order;
 
-  setOrder(orderObjedt) {
+  orderarray(orderObjedt) {
     this.#order = orderObjedt;
   }
 
@@ -45,7 +45,7 @@ class SumOrigin {
 }
 export default SumOrigin;
 
-const play = new SumOrigin();
-const x = play.allPrice();
-//
-console.log(x);
+// const play = new SumOrigin();
+// const x = play.allPrice();
+/// /
+// console.log(x);
